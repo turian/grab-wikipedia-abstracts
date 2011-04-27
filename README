@@ -4,6 +4,11 @@ For every dump in:
     http://dumps.wikimedia.org/backup-index.html
 find the file abstract.xml and wget it.
 
+USAGE:
+    ./grab-wikipedia-abstracts.py
+
+This will create a directory download.wikimedia.org/ with the abstract.xml files.
+
 REQUIREMENTS:
     * BeautifulSoup
 
