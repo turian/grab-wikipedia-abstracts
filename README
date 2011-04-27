@@ -1,0 +1,10 @@
+Grab all Wikipedia abstracts, in all languages
+
+For every dump in:
+    http://dumps.wikimedia.org/backup-index.html
+find the file abstract.xml and wget it.
+
+REQUIREMENTS:
+    * BeautifulSoup
+
+    * wget
